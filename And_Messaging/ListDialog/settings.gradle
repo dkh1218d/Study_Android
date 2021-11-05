@@ -1,0 +1,2 @@
+rootProject.name = "ListDialog"
+include ':app'

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/h_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <CheckBox
+        android:id="@+id/hobit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1번" />
+
+    <CheckBox
+        android:id="@+id/hobit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2번" />
+
+    <CheckBox
+        android:id="@+id/hobit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3번" />
+
+    <Button
+        android:id="@+id/h_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="체크박스" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/g_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/gender1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="남성" />
+
+        <RadioButton
+            android:id="@+id/gender2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="여성" />
+
+        <Button
+            android:id="@+id/g_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="성별체크" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/i_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내국인" />
+
+        <RadioButton
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="외국인" />
+
+        <Button
+            android:id="@+id/i_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="소속체크" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Switch" />
+
+    <TextView
+        android:id="@+id/switch_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</LinearLayout>
