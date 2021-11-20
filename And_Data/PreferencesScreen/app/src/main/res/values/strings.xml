@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PreferencesScreen</string>
+    
+    <string-array name="title_list">
+        <item>항목1</item>
+        <item>항목2</item>
+        <item>항목3</item>
+        <item>항목4</item>
+    </string-array>
+
+    <string-array name="value_list">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="default_list">
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

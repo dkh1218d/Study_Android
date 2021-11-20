@@ -1,0 +1,2 @@
+rootProject.name = "HttpMedia"
+include ':app'

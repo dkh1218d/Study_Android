@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="검색 제한 설정">
+
+        <EditTextPreference
+            android:defaultValue="닉네임"
+            android:dependency="switch1"
+            android:dialogIcon="@android:drawable/ic_menu_sort_alphabetically"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:key="edit1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="8자 미만"
+            android:title="닉네임 입력" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="chk1"
+            android:title="무료항목 표시" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_menu_add"
+            android:key="chk2"
+            android:summary="서머리"
+            android:summaryOff="서머리 펄스"
+            android:summaryOn="서머리 트루"
+            android:title="소지중인 항목 표시" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:key="switch1"
+            android:summaryOff="비활성화 중"
+            android:summaryOn="활성화 중"
+            android:switchTextOff="글쓰기 온"
+            android:switchTextOn="글쓰기 오프"
+            android:title="글쓰기" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="리스트 설정">
+        <ListPreference
+            android:defaultValue="A"
+            android:entries="@array/title_list"
+            android:entryValues="@array/value_list"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:key="single1"
+            android:summary="Single"
+            android:title="단일 List" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/default_list"
+            android:dialogIcon="@android:drawable/ic_menu_myplaces"
+            android:entries="@array/title_list"
+            android:entryValues="@array/value_list"
+            android:icon="@android:drawable/ic_menu_view"
+            android:key="multi1"
+            android:title="멀티List" />
+    </PreferenceCategory>
+</PreferenceScreen>

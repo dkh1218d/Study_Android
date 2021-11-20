@@ -1,0 +1,2 @@
+rootProject.name = "XMLView"
+include ':app'

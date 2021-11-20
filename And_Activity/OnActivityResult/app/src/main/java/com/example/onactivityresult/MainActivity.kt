@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         /*button1_1.setOnClickListener {
             val s_intent = Intent(this, SecondActivity::class.java)
             startActivityForResult(s_intent, second_act)
-            // requestcode = 해당 Activity를 구분하는 정수값
+            // requestCode = 해당 Activity를 구분하는 정수값
         }
         button1_2.setOnClickListener {
             val s_intent = Intent(this, ThirdActivity::class.java)

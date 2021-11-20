@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:title="1번 항목"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="2번 항목"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu3"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="3번항목" />
+    <item
+        android:id="@+id/menu4"
+        android:title="4번항목" />
+</menu>

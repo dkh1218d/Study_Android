@@ -1,0 +1,2 @@
+rootProject.name = "HttpXML"
+include ':app'

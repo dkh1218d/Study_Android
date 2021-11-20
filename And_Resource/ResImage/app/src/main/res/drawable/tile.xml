@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/p"
+    android:tileMode="repeat"/>
+    <!-- 패턴 타일 생성
+         repeat : 반복 이미지 (화면에 꽉 찰 때 까지)
+     -->
+

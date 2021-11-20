@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/img1"/>
+    </item>
+    <item android:top="75dp" android:left="75dp">
+        <bitmap android:gravity="center" android:src="@drawable/img2"/>
+    </item>
+    <item android:top="150dp" android:left="150dp">
+        <bitmap android:gravity="center" android:src="@drawable/img3"/>
+    </item>
+
+    <!-- 첫 이미지부터 겹쳐 쌓이는 레이어
+         gravity로 정렬기준을 잡고 이미지를 이동시킨다
+     -->
+</layer-list>

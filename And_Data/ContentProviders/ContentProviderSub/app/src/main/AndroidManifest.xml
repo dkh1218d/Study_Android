@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.contentprovidersub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContentProviderSub">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <!-- 다른 애플리케이션이 가지고 있는 모든 요소를 사용하는  권한
+    차후 버전이 추가 될 경우 전체 권한을 요청하는 해당 문구가 제거될 가능성이 있음 -->
+    <!--<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />-->
+
+    <!-- 참조할 provider객체의 authorities 이름을 명시해 개별 호출 권장 -->
+    <queries>
+        <provider android:authorities="com.example.contentprovider.dbprovider"/>
+    </queries>
+</manifest>
